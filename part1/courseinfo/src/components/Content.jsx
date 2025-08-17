@@ -10,8 +10,8 @@ export default function Content ({part1, exercises1, part2, exercises2, part3, e
     return (
         <>
             <Part part={part1} exercise={exercises1}/>
-            <Part part={part2} exercises={exercises2}/>
-            <Part part={part3} exercises={exercises3}/>
+            <Part part={part2} exercise={exercises2}/>
+            <Part part={part3} exercise={exercises3}/>
         </>
     )
 }
